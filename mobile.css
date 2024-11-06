@@ -247,6 +247,30 @@ margin-left: 15px;
 }
 
 
+@media screen and (max-width: 768px) {
+   .text-one {
+  background: #ddd;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.text-one h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.text-one .image-11{
+  width: 350px;
+  space-between: center;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+.text-mail{
+  font-size: 26px;
+}
+
+  }
+  
+
 /* about Responsive загвар */
 @media screen and (max-width: 768px) {
     .about-content {
