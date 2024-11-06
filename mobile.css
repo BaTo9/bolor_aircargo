@@ -1,0 +1,477 @@
+/* menu-mobile загвар-Header болон навигаци*/
+@media screen and (max-width: 768px) {
+    .menu {
+        position: fixed;
+        left: -100%;
+        top: 53px;
+        flex-direction: column;
+        background-color: rgba(7, 45, 101, 0.7);
+        box-shadow: 0 60px 80px rgba(0, 0, 0, 0.9);
+        width: 80%;
+        height: 900px;
+        text-align: left;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(10px);
+    }
+
+    .menu.active {
+        left: 0;
+    }
+
+    .menu li {
+        top: 300px;
+        margin: 2rem 0;
+        padding-top: 10px;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        width: max-content;
+        font-size: 20px;
+        position: relative;
+        cursor: pointer;
+        /* margin: 60px auto; */
+        margin-left: 30px;
+        transition: color 0.5s ease-in;
+    }
+
+    .menu li a:hover {
+        color: #0fd5ef;
+    }
+
+
+    /* .menu li a::after {
+             content: "";
+             position: absolute;
+             bottom: -3px;
+             height: 3px;
+             width: 100%;
+             left: 0;
+             background-color: #4CAF50;
+             transition: 0.7s;
+             transition-timing-function: ease-in-out;
+             transform: scaleX(0);
+         }  */
+
+    .menu li a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .menu hr {
+        display: inline;
+        border: none;
+        width: 300px;
+        height: 3px;
+        background: #fff;
+        border-radius: 7px;
+        top: 0;
+        margin-left: 22px;
+    }
+
+    .social01 {
+        display: inline;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    /*<<<<<<<< social icon >>>>>>>>*/
+    .social-pic-011 {
+        text-decoration: none;
+        font-size: 32px;
+        color: #fff;
+        padding-right: 15px;
+        display: inline-block;
+        transition: transform 0.7s;
+    }
+
+    .social-pic-011:hover {
+        background: #fff;
+        padding: 0.5px 2px;
+        margin-right: 15px;
+        border-radius: 4px;
+        color: #1877f2;
+        transform: translateY(-5px);
+    }
+
+    .social-pic-022 {
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        padding-right: 15px;
+        display: inline-block;
+        transition: transform 0.7s;
+    }
+
+    .social-pic-022:hover {
+        background: #fff;
+        padding: 0.3px 2px;
+        margin-right: 15px;
+        border-radius: 4px;
+        color: #4CC764;
+        transform: translateY(-8px);
+    }
+
+    .social-pic-033 {
+        text-decoration: none;
+        font-size: 35px;
+        color: #fff;
+        padding-right: 15px;
+        display: inline-block;
+        transition: transform 0.7s;
+    }
+
+    .social-pic-033:hover {
+        background: #fff;
+        padding: 0.8px;
+        margin-right: 15px;
+        border-radius: 4px;
+        color: #D44638;
+
+        transform: translateY(-8px);
+    }
+
+    .social-pic-044 {
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+        padding-right: 15px;
+        display: inline-block;
+        transition: transform 0.7s;
+    }
+
+    .social-pic-044:hover {
+        background: #fff;
+        padding: 0.5px 2px;
+        margin-right: 15px;
+        border-radius: 4px;
+        color: #111;
+        transform: translateY(-8px);
+    }
+
+    .social-icons a {
+        text-decoration: none;
+        font-size: 30px;
+        padding: 0 5px;
+        margin-right: 15px;
+        color: #ababab;
+        display: inline-block;
+        transition: transform 0.7s;
+    }
+
+    .social-icons a:hover {
+        color: #a51111;
+        transform: translateY(-8px);
+    }
+
+    .menu p {
+        display: flex;
+        color: #fff;
+        line-height: 0.5;
+        padding: 20px 0;
+        margin-left: 35px;
+
+    }
+
+    .menu .text-01 {
+        color: #fff;
+
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger-menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+
+/* <<<<<<<<<<<<<showcase mobile загвар>>>>>>>>>>>>> */
+@media screen and (max-width: 768px) {
+    #showcase {
+        height: 100vh;
+        padding-top: 90px;
+        /* Header-ийн өндөртэй тэнцүү padding нэмнэ */
+    }
+
+    #showcase h1 {
+        margin-top: -220px;
+        /* top: 20px; */
+        font-size: 2.4rem;
+        transition: all 0.7s ease-in;
+    }
+
+    #showcase h1:hover {
+        color: #f7c08a;
+        transform: translateY(-2px);
+    }
+
+    #showcase p {
+        font-size: 0.75rem;
+    }
+
+    .container {
+        width: 95%;
+        /* Жижиг дэлгэцэнд container-ийг бага зэрэг өргөсгөе */
+    }
+
+    .btn1 {
+        display: inline-block;
+        background: #4CAF50;
+        color: #fff;
+        margin-top: 180px;
+        padding: 3px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        /* transition: background 0.3s ease-in; */
+        transition: all 0.7s ease;
+    }
+
+    .btn1:hover {
+        background: #f7c08a;
+        transform: translateY(-5px);
+    }
+}
+
+
+/* about Responsive загвар */
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-image,
+    .about-text {
+        flex: none;
+        width: 100%;
+    }
+
+    .about-image {
+        padding-top: 30px;
+        margin-bottom: 0.75rem;
+    }
+
+    .section-title1 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 0.80rem;
+
+    }
+}
+
+/* order Responsive загвар */
+@media screen and (max-width: 768px) {
+    .order-steps {
+        flex-direction: column;
+    }
+
+    .step {
+        margin-bottom: 1rem;
+    }
+}
+
+/* pay mobile загвар */
+@media screen and (max-width: 768px) {
+    #what {
+        background: #000;
+        height: 900px;
+    }
+
+    .monye {
+        padding: 40px 0;
+    }
+
+    .monye .container {
+        flex-direction: column;
+    }
+
+    .monye-text,
+    .monye-qr {
+        flex: none;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .monye-text {
+        margin-bottom: 30px;
+    }
+
+    .monye h3 {
+        font-size: 28px;
+        margin-left: -300px;
+        margin-top: 20px;
+    }
+
+    .monye h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .monye p {
+        font-size: 16px;
+        margin-top: 100px;
+    }
+
+    .monye-qr {
+        padding: 20px;
+    }
+
+    .monye h2 img {
+        width: 180px;
+        height: 35px;
+        margin-top: 480px;
+        margin-left: -387px;
+    }
+
+    .monye img {
+        height: 180px;
+        margin-top: 530px;
+        left: 130px;
+    }
+
+    .container .pay-text {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 130px;
+        margin-right: -60px;
+    }
+}
+
+
+
+
+
+/* contact mobile  харагдах байдал */
+@media (max-width:780px) {
+
+    .contact-inputs {
+        width: 80vw;
+
+        flex-direction: column;
+    }
+
+    .contact-container {
+        height: 260vw;
+    }
+
+    .contact-left-title h2 {
+        margin-top: -300px;
+    }
+
+    .contact-right {
+        position: absolute;
+        margin-top: 460px;
+    }
+
+    .contactinfo {
+        width: 80vw;
+
+        margin-bottom: 40px;
+    }
+
+    .contact-left .contact-inputs,
+    button {
+
+        animation: moveDown 0.5s forwards;
+        /* 0.5 секундын хугацаатай анимаци */
+    }
+
+    @keyframes moveDown {
+        from {
+            transform: translateY(0);
+            /* Эхний байрлал */
+        }
+
+        to {
+            transform: translateY(-240px);
+            /* 10 пиксель доош зөөх */
+        }
+
+    }
+}
+
+
+
+/* хоргилсон Responsive загвар */
+@media screen and (max-width: 768px) {
+    .prohibited-items {
+        grid-template-columns: 1fr;
+    }
+
+    .prohibited-img img {
+        width: 380px;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .prohibited-items {
+        grid-template-columns: 1fr;
+    }
+
+    .prohibited-img img {
+        width: 310px;
+        padding-top: 40px;
+    }
+}
+
+
+
+
+/* Go to btn Responsive загвар */
+@media screen and (max-width: 768px) {
+    .prohibited-items {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* footer Responsive загвар */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin-bottom: 2rem;
+    }
+}
+
+/* delgerengui */
+.by-news {
+    background: #1877f2;
+    height: 1200px;
+}
+
+.news-1 {
+    padding-top: 80px;
+}
+
+.news-1 h3 {
+    font-size: 38px;
+    color: #f7c08a;
+    text-align: center;
+}
+
+.news-1 p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.news-1 img {
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 220px;
+}
