@@ -119,11 +119,15 @@ body {
     color: #f7c08a;
     transform: translateY(-5px);
 }
-
+a{
+    text-decoration: none;
+}
 
 /* Container */
 .container {
-    width: 70%;
+    display: flex;
+  flex-wrap: wrap;
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
