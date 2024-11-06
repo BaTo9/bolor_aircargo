@@ -277,6 +277,19 @@ body {
     transform: translateY(-5px);
 }
 
+/* ----------- delgerengui -------------*/
+.text-one{
+  background: #ddd;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.text-one h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
 /* <<<<<<<<<<<<<<< About хэсэг >>>>>>>>>>>>>>>>>>> */
 #about {
     padding: 4rem 0;
