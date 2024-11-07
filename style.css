@@ -278,34 +278,11 @@ body {
 }
 
 /* <<<<<<<<<<< Дэлгрэнгүй>>>>>>>>>>> */
-.text-one {
-    background: #ddd;
-    top: 0;
-    height: 1200px;
-}
 
-.news-1 {
-    padding-top: 120px;
-}
 
-.text-one h2 {
-    font-size: 38px;
-    color: #f7c08a;
-    text-align: center;
-    margin-top: 110px;
-}
 
-.text-one p {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 20px;
-}
 
-.news-1 img {
-    width: 200px;
-    border-radius: 10px;
-    margin-left: 220px;
-}  
+
 
 
 /* <<<<<<<<<<<<<<< About хэсэг >>>>>>>>>>>>>>>>>>> */
