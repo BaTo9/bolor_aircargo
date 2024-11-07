@@ -108,6 +108,7 @@ body {
 .btn {
     display: inline-block;
     background: darkred;
+    text-aline: center;
     color: #fff;
     padding: 5px 40px;
     border-radius: 5px;
