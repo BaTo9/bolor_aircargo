@@ -225,7 +225,7 @@ margin-left: 15px;
     }
 
     .container {
-        width: 75%;
+        width: 95%;
         /* Жижиг дэлгэцэнд container-ийг бага зэрэг өргөсгөе */
     }
 
@@ -234,9 +234,9 @@ margin-left: 15px;
         background: #4CAF50;
         color: #fff;
         margin-top: 180px;
-        margin-left: 300px;
+    
         padding: 3px 20px;
-          text-align: center;
+         
         text-decoration: none;
         border-radius: 5px;
         /* transition: background 0.3s ease-in; */
