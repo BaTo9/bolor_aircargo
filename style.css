@@ -466,7 +466,7 @@ body {
 }
 
 .section-title3 {
-    color: #e74c3c;
+    color: #fff;
     text-align: center;
     font-size: 38px;
 }
@@ -522,7 +522,7 @@ body {
 }
 
 .prohibited-img img {
-    width: 1000px;
+    width: 970px;
     padding-top: 40px;
 }
 
