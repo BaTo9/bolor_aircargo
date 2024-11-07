@@ -128,7 +128,7 @@ a{
 .container {
     display: flex;
   flex-wrap: wrap;
-    width: 100%;
+    width: 70%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 15px;
