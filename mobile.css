@@ -498,6 +498,9 @@ margin-left: 15px;
     .prohibited-items {
         grid-template-columns: 1fr;
     }
+    .gotopbtn{
+        wigth: 60px;
+        }
 }
 
 /* footer Responsive загвар */
