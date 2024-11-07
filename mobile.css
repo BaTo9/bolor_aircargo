@@ -309,6 +309,7 @@
     }
 
     .monye h3 {
+        display: none;
         font-size: 28px;
        text-alian: left;
         margin-top: 20px;
