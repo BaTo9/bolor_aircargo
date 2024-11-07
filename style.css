@@ -435,7 +435,7 @@ body {
     border-radius: 5px;
     height: 24px;
     margin-top: 160px;
-    right: -368px;
+    right: -168px;
     /* color: #ec3232;
     font-size: 28px; */
 }
@@ -443,7 +443,7 @@ body {
 .monye img {
     position: absolute;
     margin-top: 190px;
-    right: 300px;
+    right: 200px;
     height: 100px;
 }
 
@@ -454,7 +454,6 @@ body {
     right: 210px;
     font-size: 14px;
 }
-
 /* Хориглосон бараа хэсэг */
 #prohibited {
     padding: 4rem 0;
