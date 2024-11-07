@@ -310,8 +310,10 @@
 
     .monye h3 {
         font-size: 28px;
-       text-alian: center;
+       text-alian: left;
         margin-top: 20px;
+        margin-bottom: 20px;
+        
     }
 
     .monye h3::after {
