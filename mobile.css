@@ -494,14 +494,43 @@ margin-left: 15px;
 
 
 /* Go to btn Responsive загвар */
-@media screen and (max-width: 768px) {
-    .prohibited-items {
-        grid-template-columns: 1fr;
-    }
-    .gotopbtn{
-        wigth: 60px;
-        }
+@media screen and ( (max-width: 768px){
+  .gotopbtn {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(97, 239, 26, 0.7);
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(252, 249, 249);
+  font-size: 40px;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+  z-index: 100;
 }
+
+.gotopbtn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba97, 239, 26, 0.;
+}
+
+.gotopbtn.active {
+  bottom: 30px;
+  pointer-events: auto;
+  opacity: 1;
+}
+.gotopbtn i{
+  color: #fff;
+  padding-top: 10px;
+}
+  
+}
+    
 
 /* footer Responsive загвар */
 @media screen and (max-width: 768px) {
