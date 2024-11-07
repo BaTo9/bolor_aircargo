@@ -108,7 +108,6 @@ body {
 .btn {
     display: inline-block;
     background: darkred;
-    text-aline: center;
     color: #fff;
     padding: 5px 40px;
     border-radius: 5px;
@@ -120,14 +119,10 @@ body {
     color: #f7c08a;
     transform: translateY(-5px);
 }
-a{
-    text-decoration: none;
-}
+
 
 /* Container */
 .container {
-    display: flex;
-  flex-wrap: wrap;
     width: 70%;
     max-width: 1000px;
     margin: 0 auto;
@@ -281,19 +276,6 @@ a{
     background: #f7c08a;
     transform: translateY(-5px);
 }
-
-/* ----------- delgerengui -------------*/
-.text-one{
-  background: #ddd;
-  padding-top: 80px;
-  padding-bottom: 30px;
-}
-.text-one h2 {
-  text-align: center;
-  font-size: 30px;
-}
-
-
 
 /* <<<<<<<<<<<<<<< About хэсэг >>>>>>>>>>>>>>>>>>> */
 #about {
@@ -540,7 +522,7 @@ a{
 }
 
 .prohibited-img img {
-    width: 1000px;
+    width: 800px;
     padding-top: 40px;
 }
 
