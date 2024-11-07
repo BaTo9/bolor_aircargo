@@ -21,8 +21,8 @@
 
     .menu li {
         top: 300px;
-        margin: 2rem 0;
-        padding-top: 10px;
+        margin: rem 0;
+        padding-top: 1px;
     }
 
     .menu li a {
@@ -425,7 +425,7 @@
     }
 
     .prohibited-img img {
-        width: 310px;
+        width: 350px;
         padding-top: 40px;
     }
 }
