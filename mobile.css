@@ -1,5 +1,5 @@
 /* menu-mobile загвар-Header болон навигаци*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 390px and 768px) {
       .menu {
         position: fixed;
         left: -100%;
