@@ -448,32 +448,3 @@
     }
 }
 
-/* delgerengui */
-@media screen and (max-width: 768px) {
-.by-news {
-    background: #1877f2;
-    height: 1200px;
-}
-
-.news-1 {
-    padding-top: 80px;
-}
-
-.news-1 h3 {
-    font-size: 38px;
-    color: #f7c08a;
-    text-align: center;
-}
-
-.news-1 p {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.news-1 img {
-    width: 200px;
-    border-radius: 10px;
-    margin-left: 220px;
-}
-    }
