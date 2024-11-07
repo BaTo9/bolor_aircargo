@@ -397,7 +397,7 @@ body {
 /* <<<<<<<<<<<<<<< Төлбөр төлөх хэсэг >>>>>>>>>>>>>>>>>>> */
 
 #what {
-    background: #000;
+    background: #222;
     height: 100vh;
 }
 
@@ -409,7 +409,7 @@ body {
 .monye h3 {
     position: absolute;
     margin-top: 60px;
-
+text-aline: center;
     left: 400px;
     color: #fff;
     font-size: 38px;
@@ -435,7 +435,7 @@ body {
     border-radius: 5px;
     height: 24px;
     margin-top: 160px;
-    right: -168px;
+    right: -268px;
     /* color: #ec3232;
     font-size: 28px; */
 }
