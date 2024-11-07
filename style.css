@@ -278,7 +278,7 @@ body {
 }
 
 /* <<<<<<<<<<< Дэлгрэнгүй>>>>>>>>>>> */
-.by-news {
+.text-one {
     background: #ddd;
     
 }
@@ -287,13 +287,13 @@ body {
     padding-top: 120px;
 }
 
-.news-1 h3 {
+.text-one h3 {
     font-size: 38px;
     color: #f7c08a;
     text-align: center;
 }
 
-.news-1 p {
+.text-one p {
     font-size: 14px;
     color: #333;
     margin-bottom: 20px;
