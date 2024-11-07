@@ -1,18 +1,17 @@
 /* menu-mobile загвар-Header болон навигаци*/
 @media screen and (max-width: 768px) {
-      .menu {
+    .menu {
         position: fixed;
         left: -100%;
-        
         top: 53px;
         flex-direction: column;
-        background-color: rgba(7, 45, 101, 0.9);
-        box-shadow: 0 120px 80px rgba(0, 0, 0, 1.5);
+        background-color: rgba(7, 45, 101, 0.7);
+        box-shadow: 0 60px 80px rgba(0, 0, 0, 0.9);
         width: 80%;
-        height: 95%;
-        /*text-align: center;*/
+        height: 900px;
+        text-align: left;
         transition: 0.3s;
-    
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.7);
         backdrop-filter: blur(10px);
     }
 
@@ -22,61 +21,58 @@
 
     .menu li {
         top: 300px;
-        margin: 1.3rem 0;
-        padding-top: 2px;
+        margin: 2rem 0;
+        padding-top: 10px;
     }
 
-        .menu li a {
-            
-            text-decoration: none;
-            color: #fff;
-    margin-left: 40px;
-            transition: color 0.5s ease-in;
-        }
-    
-        .menu li a:hover{
-            /* background: #fbfbfb;
-            padding: 15px 100%; */
-            color: #0fd5ef;
-            
-        }
-        .menu hr{
-          display: inline;
+    .menu li a {
+        text-decoration: none;
+        width: max-content;
+        font-size: 20px;
+        position: relative;
+        cursor: pointer;
+        /* margin: 60px auto; */
+        margin-left: 30px;
+        transition: color 0.5s ease-in;
+    }
+
+    .menu li a:hover {
+        color: #0fd5ef;
+    }
+
+
+    /* .menu li a::after {
+             content: "";
+             position: absolute;
+             bottom: -3px;
+             height: 3px;
+             width: 100%;
+             left: 0;
+             background-color: #4CAF50;
+             transition: 0.7s;
+             transition-timing-function: ease-in-out;
+             transform: scaleX(0);
+         }  */
+
+    .menu li a:hover::after {
+        transform: scaleX(1);
+    }
+
+    .menu hr {
+        display: inline;
         border: none;
-width: 300px;
-height: 3px;
-background: #fff;
-border-radius: 7px;
-margin-bottom: 3px;
-margin-left: 15px;
-          
-        }
-        
-        .menu p{
-          color: #fff;
-          text-decoration: none;
-          margin-left: 35px;
-          line-height: 1;
-        }
-        .menu .text-01{
-          color: #fff;
-          line-height: 2;
-            text-decoration: none;
-            alian-items: none;
-          margin-left: 108px;
-        }
-        
-   .social-icons .social-icon {
-  display: inline;
-  color: #fff;
-  text-align: center;
-  margin-top: 8px;
-  padding-left: 10px;
-}
-.social01 {
+        width: 300px;
+        height: 3px;
+        background: #fff;
+        border-radius: 7px;
+        top: 0;
+        margin-left: 22px;
+    }
+
+    .social01 {
         display: inline;
         text-align: center;
-        padding: 30px 0;
+        padding: 50px 0;
     }
 
     /*<<<<<<<< social icon >>>>>>>>*/
@@ -209,7 +205,7 @@ margin-left: 15px;
     }
 
     #showcase h1 {
-        margin-top: 100px;
+        margin-top: -220px;
         /* top: 20px; */
         font-size: 2.4rem;
         transition: all 0.7s ease-in;
@@ -221,13 +217,14 @@ margin-left: 15px;
     }
 
     #showcase p {
-        font-size: 1.2rem;
+        font-size: 0.75rem;
     }
 
     .container {
         width: 95%;
         /* Жижиг дэлгэцэнд container-ийг бага зэрэг өргөсгөе */
     }
+
     .btn1 {
         display: inline-block;
         background: #4CAF50;
@@ -246,66 +243,6 @@ margin-left: 15px;
     }
 }
 
-/* ----------- delgerengui -------------*/
-.text-one{
-  background: #ddd;
-  padding-top: 80px;
-  padding-bottom: 30px;
-}
-.text-one h2 {
-  text-align: center;
-  font-size: 30px;
-}
-
-/* mobile */
-
-@media screen and (max-width: 768px) {
-   .text-one {
-  background: #ddd;
-  padding-top: 80px;
-  padding-bottom: 30px;
-}
-
-.text-one h2 {
-  text-align: center;
-  font-size: 30px;
-}
-.text-one .image-11{
-  width: 350px;
-  space-between: center;
-  padding: 20px 0;
-  border-radius: 20px;
-}
-.text-mail{
-  font-size: 26px;
-}
-
-  }
-  
-
-@media screen and (max-width: 768px) {
-   .text-one {
-  background: #ddd;
-  padding-top: 80px;
-  padding-bottom: 30px;
-}
-
-.text-one h2 {
-  text-align: center;
-  font-size: 30px;
-}
-.text-one .image-11{
-  width: 350px;
-  space-between: center;
-  padding: 20px 0;
-  border-radius: 20px;
-}
-.text-mail{
-  font-size: 26px;
-}
-
-  }
-  
 
 /* about Responsive загвар */
 @media screen and (max-width: 768px) {
@@ -407,7 +344,7 @@ margin-left: 15px;
     .container .pay-text {
         font-size: 20px;
         text-align: center;
-        margin-top: 560px;
+        margin-top: 130px;
         margin-right: -60px;
     }
 }
@@ -485,7 +422,7 @@ margin-left: 15px;
     }
 
     .prohibited-img img {
-        width: 380px;
+        width: 310px;
         padding-top: 40px;
     }
 }
@@ -494,43 +431,11 @@ margin-left: 15px;
 
 
 /* Go to btn Responsive загвар */
-@media screen and ( (max-width: 768px){
-  .gotopbtn {
-  position: fixed;
-  bottom: 50px;
-  right: 30px;
-  width: 60px;
-  height: 60px;
-  background-color: rgba(97, 239, 26, 0.7);
-  text-decoration: none;
-  text-align: center;
-  line-height: 40px;
-  color: rgb(252, 249, 249);
-  font-size: 40px;
-  border-radius: 50%;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.4s;
-  z-index: 100;
+@media screen and (max-width: 768px) {
+    .prohibited-items {
+        grid-template-columns: 1fr;
+    }
 }
-
-.gotopbtn:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: rgba97, 239, 26, 0.;
-}
-
-.gotopbtn.active {
-  bottom: 30px;
-  pointer-events: auto;
-  opacity: 1;
-}
-.gotopbtn i{
-  color: #fff;
-  padding-top: 10px;
-}
-  
-}
-    
 
 /* footer Responsive загвар */
 @media screen and (max-width: 768px) {
