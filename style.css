@@ -435,7 +435,7 @@ body {
     border-radius: 5px;
     height: 24px;
     margin-top: 160px;
-    right: -168px;
+    right: -268px;
     /* color: #ec3232;
     font-size: 28px; */
 }
@@ -443,7 +443,7 @@ body {
 .monye img {
     position: absolute;
     margin-top: 190px;
-    right: 200px;
+    right: 300px;
     height: 100px;
 }
 
