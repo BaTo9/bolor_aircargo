@@ -221,34 +221,67 @@ margin-left: 15px;
     }
 
     #showcase p {
-        font-size: 0.75rem;
+        font-size: 1.2rem;
     }
 
     .container {
         width: 95%;
         /* Жижиг дэлгэцэнд container-ийг бага зэрэг өргөсгөе */
     }
-
-    .btn1 {
-        display: inline-block;
-        background: #4CAF50;
-        color: #fff;
-        margin-top: 180px;
+        .btn1 {
+            display: inline-block;
+            background: #4CAF50;
+            color: #fff;
+            margin-top: 80px;
+            padding: 3px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            /* transition: background 0.3s ease-in; */
+            transition: all 0.7s ease;
+        }
     
-        padding: 3px 20px;
-         
-        text-decoration: none;
-        border-radius: 5px;
-        /* transition: background 0.3s ease-in; */
-        transition: all 0.7s ease;
-    }
-
-    .btn1:hover {
-        background: #f7c08a;
-        transform: translateY(-5px);
-    }
+        .btn1:hover {
+            background: #f7c08a;
+            transform: translateY(-5px);
+        }
 }
 
+/* ----------- delgerengui -------------*/
+.text-one{
+  background: #ddd;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.text-one h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* mobile */
+
+@media screen and (max-width: 768px) {
+   .text-one {
+  background: #ddd;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.text-one h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.text-one .image-11{
+  width: 350px;
+  space-between: center;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+.text-mail{
+  font-size: 26px;
+}
+
+  }
+  
 
 @media screen and (max-width: 768px) {
    .text-one {
