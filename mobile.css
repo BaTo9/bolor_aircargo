@@ -310,7 +310,7 @@
 
     .monye h3 {
         font-size: 28px;
-        margin-left: 200px;
+        margin-left: -300px;
         margin-top: 20px;
     }
 
@@ -345,7 +345,7 @@
         font-size: 20px;
         text-align: center;
         margin-top: 150px;
-        margin-right: -220px;
+        margin-right: -280px;
     }
 }
 
