@@ -409,8 +409,8 @@ body {
 .monye h3 {
     position: absolute;
     margin-top: 60px;
-text-aline: center;
-    left: 400px;
+
+    left: 200px;
     color: #fff;
     font-size: 38px;
     transition: 1s;
