@@ -243,6 +243,56 @@
     }
 }
 
+@media screen and (max-width: 320px) {
+    #showcase {
+        height: 100vh;
+        padding-top: 90px;
+        /* Header-ийн өндөртэй тэнцүү padding нэмнэ */
+    }
+
+    #showcase h1 {
+        margin-top: -220px;
+        /* top: 20px; */
+        font-size: 2.4rem;
+        transition: all 0.7s ease-in;
+    }
+
+    #showcase h1:hover {
+        color: #f7c08a;
+        transform: translateY(-2px);
+    }
+      #showcase h1:hover {
+        color: #f7c08a;
+        transform: translateY(-2px);
+    }
+
+    #showcase p {
+        font-size: 0.75rem;
+    }
+
+    .container {
+        width: 95%;
+        /* Жижиг дэлгэцэнд container-ийг бага зэрэг өргөсгөе */
+    }
+
+    .btn1 {
+        display: inline-block;
+        background: #4CAF50;
+        color: #fff;
+        margin-top: 180px;
+        padding: 3px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease-in;
+        transition: all 0.7s ease;
+    }
+
+    .btn1:hover {
+        background: #f7c08a;
+        transform: translateY(-5px);
+    }
+}
+
 
 /* about Responsive загвар */
 @media screen and (max-width: 768px) {
@@ -269,6 +319,7 @@
         font-size: 0.80rem;
 
     }
+ 
 }
 
 /* order Responsive загвар */
