@@ -459,35 +459,34 @@
 
 
 /* хоргилсон Responsive загвар */
-@media screen and (max-width: 768px) {
+
+@media (min-width: 502px) and (max-width: 1024px) {
     .prohibited-items {
         grid-template-columns: 1fr;
     }
-
-    .prohibited-img img {
-        width: 390px;
-        padding-top: 40px;
+        .prohibited-img img {
+            width: 610px;
+            padding-top: 40px;
+        }
+}
+@media (min-width: 392px) and (max-width: 502px) {
+    .prohibited-items {
+        grid-template-columns: 1fr;
     }
+        .prohibited-img img {
+            width: 360px;
+            padding-top: 40px;
+        }
 }
 
-@media screen and (max-width: 450px) {
+@media  (min-width: 310px) and (max-width: 392px) {
     .prohibited-items {
         grid-template-columns: 1fr;
     }
 
     .prohibited-img img {
-        width: 350px;
+        width: 310px;
         padding-top: 40px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .prohibited-items {
-        grid-template-columns: 1fr;
-    }
-
-    .prohibited-img img {
-        width: 150px;
-        padding-top: 20px;
     }
 }
 
