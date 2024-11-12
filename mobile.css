@@ -494,11 +494,43 @@
 
 
 /* Go to btn Responsive загвар */
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
+    
+    .gotopbtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(97, 239, 26, 0.7);
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(252, 249, 249);
+    font-size: 25px;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.gotopbtn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
+}
+
+.gotopbtn.active {
+    bottom: 30px;
+    pointer-events: auto;
+    opacity: 1;
+}
     .prohibited-items {
         grid-template-columns: 1fr;
     }
 }
+/* Go to top button */
+
+
 
 /* footer Responsive загвар */
 @media screen and (max-width: 768px) {
