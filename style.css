@@ -712,7 +712,7 @@ body {
 }
 
 .gotopbtn.active {
-    bottom: 30px;
+    bottom: 20px;
     pointer-events: auto;
     opacity: 1;
 }
