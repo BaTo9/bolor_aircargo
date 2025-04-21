@@ -498,7 +498,7 @@
     
     .gotopbtn {
     position: fixed;
-    bottom: 10px;
+    bottom: 20px;
     right: 30px;
     width: 60px;
     height: 60px;
@@ -520,7 +520,7 @@
 }
 
 .gotopbtn.active {
-    bottom: 10px;
+    bottom: 5px;
     pointer-events: auto;
     opacity: 1;
 }
